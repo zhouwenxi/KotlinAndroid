@@ -2,6 +2,7 @@ package com.qishui.kotlinandroid
 
 import android.os.Bundle
 import mzict.com.myoa.mylibrary.base.BaseActivity
+import mzict.com.myoa.mylibrary.utils.LogUtils
 
 
 class MainActivity : BaseActivity() {
@@ -11,6 +12,8 @@ class MainActivity : BaseActivity() {
     }
 
     override fun initEvent(savedInstanceState: Bundle?) {
+
+        LogUtils.e("1","2","100",123);
 
     }
 
